@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontak</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #2e026d, #6a11cb, #2575fc);
+      color: white;
+      font-family: "Poppins", sans-serif;
+      text-align: center;
+      padding: 50px;
+    }
+    form {
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 20px;
+      padding: 25px;
+      width: 90%;
+      max-width: 400px;
+      margin: auto;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+    }
+    input, textarea {
+      border: none;
+      border-radius: 10px;
+      padding: 10px;
+      margin-bottom: 10px;
+      width: 100%;
+      outline: none;
+    }
+    button {
+      background: white;
+      color: #2575fc;
+      border: none;
+      border-radius: 10px;
+      padding: 10px 25px;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #2575fc;
+      color: white;
+    }
+    .info {
+      margin-top: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      padding: 15px;
+      display: inline-block;
+    }
+    .info a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .info a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <h1>Hubungi Saya</h1>
+  <form>
+    <input type="text" placeholder="Nama" required>
+    <input type="email" placeholder="Email" required>
+    <textarea placeholder="Pesan kamu..." rows="4" required></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <!-- Tambahan info kontak -->
+  <div class="info mt-4">
+    <p>📧 Email: <a href="mailto:namakamu@gmail.com">namakamu@gmail.com</a></p>
+    <p>📱 WhatsApp: <a href="https://wa.me/6281234567890" target="_blank">+62 812-3456-7890</a></p>
+  </div>
+
+  <a href="../index.html" class="d-block mt-3 text-light">← Kembali ke Home</a>
+
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

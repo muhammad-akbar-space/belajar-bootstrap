@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sosial Media</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
+  <style>
+    body {
+      background: linear-gradient(135deg, #2e026d, #6a11cb, #2575fc);
+      color: white;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      padding: 50px 20px;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    }
+
+    .social-btns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .btn-custom {
+      border-radius: 50px;
+      padding: 12px 30px;
+      font-weight: 500;
+      font-size: 1.1rem;
+      transition: all 0.3s ease;
+      color: #fff;
+      text-decoration: none;
+      border: 2px solid #fff;
+    }
+
+    .btn-custom:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 5px 15px rgba(255, 255, 255, 0.3);
+      background-color: #fff;
+      color: #6a11cb;
+    }
+
+    .btn-instagram { background: #E1306C; border-color: #E1306C; }
+    .btn-twitter { background: #1DA1F2; border-color: #1DA1F2; }
+    .btn-github { background: #24292e; border-color: #24292e; }
+
+    .btn-instagram:hover { color: #E1306C; }
+    .btn-twitter:hover { color: #1DA1F2; }
+    .btn-github:hover { color: #24292e; }
+
+    a.back {
+      color: #fff;
+      margin-top: 40px;
+      display: inline-block;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a.back:hover {
+      text-decoration: underline;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🌐 Sosial Media Saya 🌐</h1>
+
+  <div class="social-btns">
+    <a href="https://instagram.com/mhmmdakbar31" target="_blank" class="btn-custom btn-instagram">📸 Instagram</a>
+    <a href="https://twitter.com/" target="_blank" class="btn-custom btn-twitter">🐦 Twitter</a>
+    <a href="https://github.com/muhammadakbar.github.io" target="_blank" class="btn-custom btn-github">💻 GitHub</a>
+  </div>
+
+  <a href="../index.html" class="back">← Kembali ke Home</a>
+
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
